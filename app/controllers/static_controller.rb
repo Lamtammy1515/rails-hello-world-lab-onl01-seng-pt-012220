@@ -1,4 +1,5 @@
 class StaticController < ApplicationController
-  def index
+  get "/hello_world" do 
+    erb:'index'
   end 
 end
